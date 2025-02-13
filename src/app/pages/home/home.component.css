@@ -1,6 +1,27 @@
+/* background: linear-gradient(90deg, #000428, #004e92); */
+/* box-shadow: 15px 15px 25px rgba(0, 0, 0, .4); */
+/*box-shadow: 15px 15px 30px rgba(0, 0, 0, .6);*/
+
 
 .bg-custom{
-    background-color: rgb(219, 219, 219);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all .8s ease;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, .2);
+}
+
+.no-seleccionable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+}
+
+.bg-custom:hover{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .5);
+    
+    
 }
 .bg-custom__amarillo{
     background-color: #e3bb5f;
@@ -8,9 +29,26 @@
     min-width: 200px;
     
 }
-.bg-custom__azul{
-    background-color: #21325e;
+.bg-custom__img {
+    position: relative; 
+    overflow: hidden;
 }
+
+.bg-custom__img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../../assets/img/homePage/img__background.webp);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .justificado{
     text-align: justify;
 }
+
