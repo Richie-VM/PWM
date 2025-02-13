@@ -1,0 +1,16 @@
+
+.bg-custom{
+    background-color: rgb(219, 219, 219);
+}
+.bg-custom__amarillo{
+    background-color: #e3bb5f;
+    display:inline-block;
+    min-width: 200px;
+    
+}
+.bg-custom__azul{
+    background-color: #21325e;
+}
+.justificado{
+    text-align: justify;
+}
