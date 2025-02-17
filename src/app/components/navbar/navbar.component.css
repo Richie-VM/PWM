@@ -1,7 +1,26 @@
 .bg-custom{
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(10px);
 }
 
 .hover:hover{
-    color: #e3bb5f;
+    background-color: #e3bb5f;
+    transform: scale(1.2);
+}
+
+i:hover{
+    transform: scale(1.2);
+}
+a, i{
+    color: white;
+    transition: all .5s ease;
+    
+}
+
+.navbar{
+    z-index: 99;
+}
+.navbar-toggler{
+    color: white;
+    background-color: white;
 }
