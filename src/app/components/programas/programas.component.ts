@@ -10,10 +10,95 @@ import { RouterLink } from '@angular/router';
 })
 export class ProgramasComponent {
 
+  constructor(){ }
+
   public programas: any[ ] = [
-    {titulo: 'Finance and Accounting for the Nonfinancial Executive', Duracion: '81 sesiones (182 horas)', Horarios: 'Lunes, Martes, Jueves - 7:00 pm a 9:00 pm', Tipo: 'In-Person', Modalidad: 'Modalidad Hibrido', Fecha: '03 Febrero 2025'},
-    {titulo: 'Design Thinking Bootcamp: Make Impact and Drive Growth in Your Organization', Duracion: '81 sesiones (182 horas)', Horarios: 'Lunes, Martes, Jueves - 7:00 pm a 9:00 pm', Tipo: 'In-Person', Modalidad: 'Modalidad Hibrido', Fecha: '03 Febrero 2025'},
-    {titulo: 'The Strategic Chief Sustainability Officer Program', Duracion: '81 sesiones (182 horas)', Horarios: 'Lunes, Martes, Jueves - 7:00 pm a 9:00 pm', Tipo: 'In-Person', Modalidad: 'Modalidad Hibrido', Fecha: '03 Febrero 2025'},
-    {titulo: 'Executive Leadership Development', Duracion: '81 sesiones (182 horas)', Horarios: 'Lunes, Martes, Jueves - 7:00 pm a 9:00 pm', Tipo: 'In-Person', Modalidad: 'Modalidad Hibrido', Fecha: '03 Febrero 2025'},
+    { titulo: '1. Private Wealth Management', 
+      Duracion: '14 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Hibrido', 
+      Fecha: ''
+    },
+    { titulo: '2. Inteligencia Estratégica, Liderazgo y Negociación', 
+      Duracion: '3 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Presencial', 
+      Fecha: ''
+    },
+    { titulo: '3. Planeación Financiera y Retiro', 
+      Duracion: '3 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Virtual', 
+      Fecha: ''
+    },
+    { titulo: '4. Filantropía', 
+      Duracion: '2 clases', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Presencial', 
+      Fecha: ''
+    },
+    { titulo: '5. Insurance Strategies for Wealth Management', 
+      Duracion: '3 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+    { titulo: '6. Luxury & Art as Alternative Investments', 
+      Duracion: '3 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Virtual', 
+      Fecha: ''
+    },
+    { titulo: '7. Optimización Fiscal', 
+      Duracion: '4 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Presencial', 
+      Fecha: ''
+    },
+    { titulo: '8. Mercados Financieros (Públicos y Alternativos)', 
+      Duracion: '53 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+    { titulo: '9. Trading Economics, Análisis e Interpretación de Variable Económica y su Impacto', 
+      Duracion: '8 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+    { titulo: '10. Asset Allocation & Asset Management', 
+      Duracion: '8 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+    { titulo: '11. Family Offices', 
+      Duracion: '6 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+    { titulo: '12. Geopolitical Risk ', 
+      Duracion: '2 clases ', 
+      Horarios: '', 
+      Tipo: '', 
+      Modalidad: 'Modalidad Híbrida', 
+      Fecha: ''
+    },
+
+    
+    
   ];
 }

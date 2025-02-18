@@ -3,7 +3,20 @@
         <div class="col-10 mx-auto">
             <h2 class="py-4">Programas</h2>
         </div>
+        <hr>
 
+        
+        <div class="col-10 col-sm-5 mx-auto" *ngFor="let programa of programas">
+            
+            <h5 class="py-2 color01">{{programa.titulo}}</h5>
+            <p class="fs-5">{{programa.Duracion}}</p>
+            <p class="pb-1 fs-5 color02">{{programa.Modalidad}}</p>
+
+            <button class="btn btn-danger">More info</button>
+            <hr>
+        </div> 
+
+        <!-- 
         <div class="accordion col-10 mx-auto pb-5" id="accordionExample">
 
 
@@ -211,19 +224,8 @@
                 </div>
               </div>
             </div>
-        </div>
-        <!-- 
-        <div class="col-10 mx-auto" *ngFor="let programa of programas">
-            <hr>
-            <h4 class="py-3 color01">{{programa.titulo}}</h4>
-            <p class="fs-5">{{programa.Duracion}}</p>
-            <p class="fs-5">{{programa.Horarios}}</p>
-            <p class="fs-5">{{programa.Tipo}}</p>
-            <p class="fs-5">{{programa.Modalidad}}</p>
-
-            <p class="py-3 fs-4 color02">{{programa.Fecha}}</p>
-            <hr>
-        </div> -->
+        </div>-->
+        
 
     </div>
 </section>
